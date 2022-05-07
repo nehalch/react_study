@@ -1,20 +1,11 @@
+import React from "react";
+import { ReactDOM } from "react-dom";
 
-const Navbar = () => { 
-    return (
-        <nav>
-            <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Contact</li>
-            </ul>
-        </nav>
-    );
-}
-    
-const page = (
+const element = (
     <div>
-        <Navbar/>
+        <p>123</p>
+        <h1 className="123">123123</h1>
     </div>
 );
 
-ReactDOM.render(page, document.getElementById("root"));
+ReactDOM.render(element, document.getElementById("root"));
