@@ -1,6 +1,4 @@
-// import { Navbar } from "./nav";
-
-const Navbar = () => {
+export const Navbar = () => {
     return (
         <nav className="nav">
             <ul>
@@ -11,13 +9,3 @@ const Navbar = () => {
         </nav>
     );
 }
-
-const page =(
-    <div>
-        <Navbar />
-    </div>
-);
-
-
-ReactDOM.render(page, document.getElementsById("root"));
-
