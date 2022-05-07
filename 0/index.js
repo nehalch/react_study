@@ -1,8 +1,7 @@
-// import { Navbar } from "./nav";
 
-const Navbar = () => {
+const Navbar = () => { 
     return (
-        <nav className="nav">
+        <nav>
             <ul>
                 <li>Home</li>
                 <li>About</li>
@@ -11,13 +10,11 @@ const Navbar = () => {
         </nav>
     );
 }
-
-const page =(
+    
+const page = (
     <div>
-        <Navbar />
+        <Navbar/>
     </div>
 );
 
-
-ReactDOM.render(page, document.getElementsById("root"));
-
+ReactDOM.render(page, document.getElementById("root"));
