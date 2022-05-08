@@ -3,9 +3,9 @@
 function Header() {
     return (
         <header>
-            <img className="header" src="./react.png" alt="React logo" />
+            <img className="header" width="40px" src="./logo192.png" alt="React logo" />
             <nav>
-                <ul className = "nav">
+                <ul className="nav">
                     <li>Pricing</li>
                     <li>About</li>
                     <li>Contacts</li>
