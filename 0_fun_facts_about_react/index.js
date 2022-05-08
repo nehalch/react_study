@@ -10,8 +10,9 @@ const Navbar = () => {
     );
 }
 
-const page = (
-    <div>
+const Page = () => { 
+    return (
+        <div>
         <img src="./react.png" alt="123" width="40px" />
         <h1>Fun facts about React</h1>
         <ul>
@@ -22,7 +23,9 @@ const page = (
             <li>Powers thousands of enterprise apps, include mobile apps</li>
         </ul>
     </div>
-);
+    );
+}
+    
 
 
-ReactDOM.render(page, document.getElementById("root"));
+ReactDOM.render(<Page />, document.getElementById("root"));
