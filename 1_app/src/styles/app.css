@@ -1,9 +1,13 @@
+/* HEADER */
+
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 1px 1px 5px #ccc;
   padding: 20px;
+
+  color: #61DAFB;
+  background: #21222A;
 }
 
 img.header {
@@ -19,8 +23,21 @@ ul.nav li {
   padding: 10px;
 }
 
+
+
+
+
+/* MAIN */
+
+body {
+  background: #282D35;
+}
+
 main {
   padding: 20px;
+
+  color: #FFFFFF;
+
 }
 
 main h1 {
@@ -34,15 +51,21 @@ main li {
 
 
 
+
+
+
+
+/* FOOTER */
+
 footer {
   position: absolute;
   right: 0;
   bottom: 0;
   left: 0;
 
-  height: 3rem;
+  height: 2rem;
 
-  background-color: gray;
+  background-color: #21222A;
 
   display: flex;
   align-items: center;
