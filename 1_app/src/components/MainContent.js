@@ -3,14 +3,14 @@ import React from "react";
 function MainContent() {
     return (
         <main>
-            <h1>Reasons I'm excited to learn React</h1>
-            <ol>
-                <li>Whole site in one react app.</li>
-                <li>Cross platform apps.</li>
-                <li>Easy to use.</li>
-                <li>React is fast.</li>
-                <li>TypeScript template.</li>
-            </ol>
+            <h1 className="main">Fun facts about React</h1>
+            <ul className="main">
+                <li>Was first realeased in 2013</li>
+                <li>Was originally created by Jordan Walek</li>
+                <li>Has well over 100K stars on GitHub</li>
+                <li>Is maintained by Facebook</li>
+                <li>Powers thousands of enterprice apps, including mobile apps</li>
+            </ul>
         </main>
     );
 }

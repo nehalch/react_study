@@ -5,14 +5,9 @@ function Header() {
     return (
         <header>
             <img className="header" width="40px" src={reactLogo} alt="React logo" />
-            <h1>React good</h1>
-            <nav>
-                <ul className="nav">
-                    <li>Pricing</li>
-                    <li>About</li>
-                    <li>Contacts</li>
-                </ul>
-            </nav>
+            <h2 className="header">React facts </h2>
+            <h4 className="header">React Cource - Project 1 </h4>
+
         </header>
     );
 }
