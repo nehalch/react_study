@@ -1,0 +1,111 @@
+body {
+  background-color: #23252C;
+  color: white;
+  box-sizing: border-box;
+
+}
+
+#card {
+  margin: auto;
+  margin-block-start: 50px;
+  margin-block-end: 50px;
+
+  min-inline-size: 200px;
+  inline-size: 70%;
+  max-inline-size: 500px;
+
+  padding: 0;
+
+  background-color: #1A1B21;
+
+  /* border: white 2px solid; */
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0px 0px 20px black;
+}
+
+header {
+  justify-content: center;
+  text-align: center;
+
+
+}
+
+header>* {
+  margin: 0px;
+  padding: 0px;
+  margin-block-end: 1rem;
+  margin-block-start: 1rem;
+
+}
+
+header>img {
+  inline-size: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+header button {
+  inline-size: 76%;
+  block-size: 3rem;
+
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+
+  padding-top: auto;
+  padding-bottom: auto;
+
+  text-align: center;
+  vertical-align: middle;
+
+  box-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+
+header a {
+  color: yellow;
+  text-decoration: none;
+}
+
+header button:hover {
+  background-color: rgb(216, 216, 216);
+}
+
+
+
+
+
+main {
+  margin-block-start: 2rem;
+  margin-block-end: 2rem;
+
+  padding-inline-start: 12%;
+  padding-inline-end: 12%;
+}
+
+main article>p {
+  font-size: 0.8rem;
+}
+
+
+
+
+footer {
+  margin-block-start: 2rem;
+
+  padding-block-start: 10px;
+  padding-block-end: 10px;
+
+  padding-inline-start: 12%;
+  padding-inline-end: 12%;
+
+  display: flex;
+  background-color: #161619;
+  justify-content: center;
+}
+
+footer a {
+  /* padding: 10px; */
+  /* margin: auto; */
+  margin: auto;
+}
