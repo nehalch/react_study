@@ -24,3 +24,19 @@ div.slider {
 div.slider div.card {
   inline-size: 200px;
 }
+
+
+div.card_photo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  inline-size: 40px;
+  block-size: 50px;
+  overflow: hidden;
+}
+
+img.card {
+  margin: 0px;
+  padding: 0px;
+  block-size: 100%;
+}
