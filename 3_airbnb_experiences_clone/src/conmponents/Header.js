@@ -1,11 +1,11 @@
 import React from "react";
 
-import logo from "../images/airbnb.png";
+// import logo from "../../public/images";
 
 export default function Header() {
     return (
         <header>
-            <img src={logo} alt="logo" width="200" />
+            <img src={process.env.PUBLIC_URL + "/images/airbnb.png"} alt="logo" width="200" />
         </header>
     );
 }

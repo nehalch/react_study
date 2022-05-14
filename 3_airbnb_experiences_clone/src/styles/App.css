@@ -14,11 +14,13 @@ main img {
   max-inline-size: 1000px;
 }
 
-main p,
-main h1 {
-  /* margin-inline-start: 5%; */
-  /* margin-inline-end: 5%; */
+div.slider {
+  display: flex;
+  flex-direction: row;
+  /* overflow: auto; */
+  overflow: auto;
 }
 
-
-footer {}
+div.slider div.card {
+  inline-size: 200px;
+}
