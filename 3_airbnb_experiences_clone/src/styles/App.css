@@ -1,29 +1,24 @@
 header {
-  margin: 0px;
-  padding: 20px;
-  inline-size: 100%;
-  box-shadow: 0px -5px 30px black;
+  box-shadow: 0px -5px 15px black;
   display: flex;
 }
 
-header img {
-  padding: 0px;
-  margin: 0px;
-}
-
 main {
-  inline-size: 100%;
-  margin: 0px;
-  padding: 0px;
-
-
+  display: flex;
+  flex-direction: column;
 }
 
-main * {
-  /* margin-block-start: 10px; */
-  /* margin-block-end: 10px; */
-  margin: 0px;
-  padding: 0px;
+main img {
+  align-self: center;
+  inline-size: 90%;
+  max-inline-size: 1000px;
 }
+
+main p,
+main h1 {
+  /* margin-inline-start: 5%; */
+  /* margin-inline-end: 5%; */
+}
+
 
 footer {}
