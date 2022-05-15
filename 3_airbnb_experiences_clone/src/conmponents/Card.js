@@ -3,7 +3,7 @@ import React from "react";
 export default function Card(product) {
     return (
         <div className="card">
-            <div className="card_photo">
+            <div className="photo_box">
                 <img className="card" src={process.env.PUBLIC_URL + "/images/products/" + product.photo} alt="Product card." />
             </div>
             <h2 className="card" >{product.name}</h2>

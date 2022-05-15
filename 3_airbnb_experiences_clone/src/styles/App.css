@@ -14,6 +14,11 @@ main img {
   max-inline-size: 1000px;
 }
 
+
+
+
+
+
 div.slider {
   display: flex;
   flex-direction: row;
@@ -22,11 +27,11 @@ div.slider {
 }
 
 div.slider div.card {
-  inline-size: 200px;
+  inline-size: 900px;
 }
 
 
-div.card_photo {
+div.photo_box {
   display: flex;
   flex-direction: column;
   justify-content: center;
