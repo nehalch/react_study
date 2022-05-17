@@ -7,6 +7,8 @@ export default [
         rate: 1.1,
         country: "USA",
         description: "Some text",
+        quantity: 0,
+        type: "",
     },
     {
         photo: "cat2.jpeg",
@@ -16,6 +18,8 @@ export default [
         rate: 2.2,
         country: "UA",
         description: "Some text",
+        quantity: 3,
+        type: "online",
     },
     {
         photo: "cat3.jpeg",
@@ -25,6 +29,8 @@ export default [
         rate: 3.3,
         country: "CN",
         description: "Some text",
+        quantity: 2,
+        type: "",
     },
     {
         photo: "cat4.jpeg",
@@ -34,6 +40,8 @@ export default [
         rate: 3.3,
         country: "CN",
         description: "Some text",
+        quantity: 0,
+        type: "",
     },
     {
         photo: "cat1.jpeg",
@@ -43,6 +51,8 @@ export default [
         rate: 1.1,
         country: "USA",
         description: "Some text",
+        quantity: 3,
+        type: "",
     },
     {
         photo: "cat2.jpeg",
@@ -52,6 +62,8 @@ export default [
         rate: 2.2,
         country: "UA",
         description: "Some text",
+        quantity: 1,
+        type: "",
     },
     {
         photo: "cat3.jpeg",
@@ -61,6 +73,8 @@ export default [
         rate: 3.3,
         country: "CN",
         description: "Some text",
+        quantity: 7,
+        type: "",
     },
     {
         photo: "cat4.jpeg",
@@ -70,5 +84,7 @@ export default [
         rate: 3.3,
         country: "CN",
         description: "Some text",
+        quantity: 0,
+        type: "",
     },
 ];

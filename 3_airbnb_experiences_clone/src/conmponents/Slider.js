@@ -1,7 +1,7 @@
 import React from "react";
 
 import Card from "./Card";
-import products from "../data/products";
+import items from "../data/items";
 
 // const json = '{{"result":true, "count":42},{"result":true, "count":42}}';
 // const obj = JSON.parse(json);
@@ -13,18 +13,12 @@ import products from "../data/products";
 // expected output: true
 
 export default function Slider() {
-    const cards = products.map(product => {
+    const cards = items.map(item => {
         return <Card
-            photo={product.photo}
-            quantity={product.quantity}
-            name={product.name}
-            price={product.price}
-            rate={product.rate}
-            country={product.country}
-            description={product.description}
+            key={item.id}
+            item={item}
         />
     });
-
     return (
         <div className="slider">
             {cards}

@@ -44,6 +44,8 @@ div.slider div.card {
   padding-block-end: 1rem;
   padding-inline-start: 1rem;
   padding-inline-end: 1rem;
+
+  position: relative;
 }
 
 img.card {
@@ -53,4 +55,14 @@ img.card {
   object-fit: cover;
   border-radius: 20px;
   align-self: center;
+}
+
+.card>.badge {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 5px;
+  font-weight: bold;
 }
