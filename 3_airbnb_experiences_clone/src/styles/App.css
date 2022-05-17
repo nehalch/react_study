@@ -19,29 +19,38 @@ main img {
 
 
 
+/* SLIDER */
+
+
+
 div.slider {
-  display: flex;
-  flex-direction: row;
-  /* overflow: auto; */
+  display: inline-flex;
   overflow: auto;
+
+
+  /* box-shadow: inset 20px 0px 10px 2px rgba(0, 0, 0, 0.5); */
+  /* overflow: hidden; */
 }
 
 div.slider div.card {
-  inline-size: 900px;
-}
+  inline-size: 200px;
 
-
-div.photo_box {
   display: flex;
+  flex: 0 0 auto;
   flex-direction: column;
-  justify-content: center;
-  inline-size: 40px;
-  block-size: 50px;
-  overflow: hidden;
+
+  margin: 0px;
+  padding-block-start: 1rem;
+  padding-block-end: 1rem;
+  padding-inline-start: 1rem;
+  padding-inline-end: 1rem;
 }
 
 img.card {
-  margin: 0px;
-  padding: 0px;
-  block-size: 100%;
+  inline-size: 100%;
+
+  block-size: 300px;
+  object-fit: cover;
+  border-radius: 20px;
+  align-self: center;
 }
