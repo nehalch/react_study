@@ -1,13 +1,13 @@
 import React from "react";
 
-export default function Card(product) {
+export default function Card(props) {
 
     let text = "";
 
-    if (product.quantity === 0) {
+    if (props.item.quantity === 0) {
         text = "SOLD OUT";
     }
-    if (product.type === "online") {
+    if (props.item.type === "online") {
         text = "ONLINE"
     }
 
@@ -15,13 +15,13 @@ export default function Card(product) {
     return (
         <div className="card">
             {text && <div className="badge">{text}</div>}
-            <img className="card" src={process.env.PUBLIC_URL + "/images/products/" + product.photo} alt="Product card." />
-            <h2 className="card" >{product.name}</h2>
-            <p className="card" > {product.quantity} pcs.</p>
-            <p className="card" > {product.price} USD</p>
-            <p className="card" > {product.rate} stars</p>
-            <p className="card" > {product.country} </p>
-            <p className="card" > Description: {product.description} </p>
+            <img className="card" src={process.env.PUBLIC_URL + "/images/items/" + props.item.photo} alt="props.item card." />
+            <h2 className="card" >{props.item.name}</h2>
+            <p className="card" > {props.item.quantity} pcs.</p>
+            <p className="card" > {props.item.price} USD</p>
+            <p className="card" > {props.item.rate} stars</p>
+            <p className="card" > {props.item.country} </p>
+            <p className="card" > Description: {props.item.description} </p>
         </div >
     )
 };
