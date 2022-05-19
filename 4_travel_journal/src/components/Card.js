@@ -3,7 +3,9 @@ import React from "react";
 const Card = () => {
     return (
         <div className="card">
-            main
+            <p>
+                123
+            </p>
         </div>
     );
 }
