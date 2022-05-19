@@ -1,0 +1,35 @@
+html,
+body,
+.root,
+.App {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Lato', sans-serif;
+}
+
+.App>* * {
+  margin: 0px;
+  margin-block-start: 0.5rem;
+  margin-block-end: 0.5rem;
+  padding: 0px;
+}
+
+header,
+main,
+footer {
+  margin: 0px;
+
+  padding-block-start: 1rem;
+  padding-block-end: 1rem;
+
+  padding-inline-start: 5%;
+  padding-inline-end: 5%;
+
+  inline-size: 90%;
+}
+
+
+/* DEV */
+.App * {
+  border: 1px solid;
+}
