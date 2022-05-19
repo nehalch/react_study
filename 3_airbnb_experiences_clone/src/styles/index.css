@@ -4,6 +4,7 @@ body,
 .App {
   margin: 0px;
   padding: 0px;
+  font-family: 'Lato', sans-serif;
 }
 
 .App>* * {
@@ -29,6 +30,6 @@ footer {
 
 
 /* DEV */
-.App * {
+/* .App * {
   border: 1px solid;
-}
+} */

@@ -7,7 +7,7 @@ export default function Slider() {
     const cards = items.map(item => {
         return <Card
             key={item.id}
-            item={item}
+            {...item}
         />
     });
     return (

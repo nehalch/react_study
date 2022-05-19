@@ -4,10 +4,10 @@ export default function Card(props) {
 
     let text = "";
 
-    if (props.item.quantity === 0) {
+    if (props.quantity === 0) {
         text = "SOLD OUT";
     }
-    if (props.item.type === "online") {
+    if (props.type === "online") {
         text = "ONLINE"
     }
 
@@ -15,13 +15,13 @@ export default function Card(props) {
     return (
         <div className="card">
             {text && <div className="badge">{text}</div>}
-            <img className="card" src={process.env.PUBLIC_URL + "/images/items/" + props.item.photo} alt="props.item card." />
-            <h2 className="card" >{props.item.name}</h2>
-            <p className="card" > {props.item.quantity} pcs.</p>
-            <p className="card" > {props.item.price} USD</p>
-            <p className="card" > {props.item.rate} stars</p>
-            <p className="card" > {props.item.country} </p>
-            <p className="card" > Description: {props.item.description} </p>
+            <img className="card" src={process.env.PUBLIC_URL + "/images/items/" + props.photo} alt="props card." />
+            <h2 className="card" >{props.name}</h2>
+            <p className="card" > {props.quantity} pcs.</p>
+            <p className="card" > {props.price} USD</p>
+            <p className="card" > {props.rate} stars</p>
+            <p className="card" > {props.country} </p>
+            <p className="card" > Description: {props.description} </p>
         </div >
     )
 };
