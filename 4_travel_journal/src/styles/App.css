@@ -1,0 +1,13 @@
+
+
+.card{
+    padding: 0px;
+display: flex;
+}
+
+img.card{
+    inline-size: 200px;
+    block-size: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
