@@ -1,8 +1,16 @@
+header{
+    background-color: #F55A5A;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
 
 
 .card{
+    margin: 5px;
     padding: 0px;
-display: flex;
+    display: flex;
 }
 
 img.card{
@@ -10,4 +18,11 @@ img.card{
     block-size: 300px;
     object-fit: cover;
     border-radius: 10px;
+}
+.map{
+    display:flex;
+}
+.map >*{
+    margin: 5px;
+    text-align: center;
 }

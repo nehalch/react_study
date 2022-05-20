@@ -3,9 +3,9 @@ import React from "react";
 const Header = () => {
     return (
         <header>
-            <p>
-                header
-            </p>
+            <h4>
+                My Travel Journal
+            </h4>
         </header>
     );
 }

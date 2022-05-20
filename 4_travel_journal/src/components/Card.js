@@ -6,9 +6,9 @@ const Card = (props) => {
             <img className="card" src={props.image} width="200" alt={props.title} />
             
             <div className="data">
-                <div className="location">
-                    <h4>{props.location}</h4>
-                    <h6>
+                <div className="map">
+                    <h4 className="location">{props.location}</h4>
+                    <h6 className="link">
                         <a href={props.link}> View on Google Maps </a>
                     </h6>
                 </div>
