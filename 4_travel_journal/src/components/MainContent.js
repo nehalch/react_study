@@ -22,7 +22,9 @@ const MainContent = () => {
     
     return (
         <main>
-            {cards}
+            <div className="cards_box">
+                {cards}
+            </div>
         </main>
     );
 }

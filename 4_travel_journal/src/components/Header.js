@@ -1,11 +1,14 @@
 import React from "react";                                                                      
 
+const logo =  process.env.PUBLIC_URL + "/images/earth.svg"
+
 const Header = () => {
     return (
         <header>
-            <h4>
+            <img className="logo" src={ logo} alt="earth" width="100"/>
+            <h2>
                 My Travel Journal
-            </h4>
+            </h2>
         </header>
     );
 }

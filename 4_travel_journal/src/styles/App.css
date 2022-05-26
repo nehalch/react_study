@@ -4,11 +4,32 @@ header{
     display: flex;
     justify-content: center;
     text-align: center;
+    padding: auto;
+}
+header h2{
+    margin: auto;
+}
+img.logo{
+    block-size: 3rem;
+    inline-size: auto;
 }
 
+main{
+    display: flex;
+}
+
+.cards_box{
+    padding: 0px;
+    margin: auto;
+    min-inline-size: 400px ;
+    inline-size: 80%;
+    max-inline-size: 800px;
+}
 
 .card{
-    margin: 5px;
+    margin: 0px;
+    margin-block-start: 15px;
+    margin-block-end: 15px;
     padding: 0px;
     display: flex;
 }
@@ -19,10 +40,47 @@ img.card{
     object-fit: cover;
     border-radius: 10px;
 }
+
+.data{
+    margin: 20px;
+}
+.data>*{
+    margin-block-start: 20px;
+    margin-block-end: 20px;
+    /* margin: 20px; */
+}
+
 .map{
     display:flex;
+    content: center;
 }
 .map >*{
     margin: 5px;
     text-align: center;
+}
+
+img.location{
+    inline-size: auto;
+    block-size: 1.3rem;
+    margin: 0px;
+    margin-block-start: auto;
+    margin-block-end: auto;
+    padding: 0px;
+}
+
+a.link {
+    /* text-decoration: none; */
+    color: #F55A5A;
+}
+
+
+.card h6 {
+    font-weight: bold;
+}
+
+
+
+
+hr{
+    color: #F55A5A;
 }
