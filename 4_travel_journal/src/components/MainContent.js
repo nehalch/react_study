@@ -19,7 +19,6 @@ const cards_spacer = (cards) => {
 
 const MainContent = () => {
     let cards = cards_spacer(items.map(item => <Card {...item} />));
-    
     return (
         <main>
             <div className="cards_box">
